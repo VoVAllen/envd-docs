@@ -19,6 +19,19 @@ def python_packages(name: List[str])
 
 Install python package by pip
 
+#### conda\_packages
+
+```python
+def conda_packages(name: List[str])
+```
+
+Install python package by Conda
+
+**Arguments**:
+
+- `name` _List[str]_ - List of package names with optional version assignment,
+  such as [&#x27;pytorch&#x27;, &#x27;tensorflow==1.13.0&#x27;]
+
 #### r\_packages
 
 ```python
